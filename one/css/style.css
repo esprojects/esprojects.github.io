@@ -249,3 +249,9 @@ label[for="menu"] span {
 #menu:checked ~ #wrapper {
 	filter: brightness(.5);
 }
+
+.video {
+	max-width: 560px;
+	margin: 0 auto;
+	margin-bottom: 200px;
+}
