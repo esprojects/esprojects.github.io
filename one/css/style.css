@@ -193,10 +193,10 @@ li {
 .nav {
 	position: fixed;
 	height: 100%;
-	right: -500px;
+	right: -40%;
 	z-index: 1;
 	background: #D2D7D3;
-	padding: 60px 200px 100px 60px;
+	padding: 5% 20% 0 5%;
 	transition: all .5s;
 }
 
@@ -238,7 +238,7 @@ label[for="menu"] span {
 }
 
 #menu:checked ~ label[for="menu"] {
-	right: 515px;
+	right: 44%;
 }
 
 #menu:checked ~ .nav {
